@@ -15,7 +15,7 @@ public class SchoolService implements SchoolServiceInterface {
 
 	@Override
 	public void addDetails(SchoolEntity school) {
-		repo.save(school);
+		repo.save(school);  
 	}
 
 	@Override
